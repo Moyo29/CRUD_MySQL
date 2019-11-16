@@ -55,7 +55,7 @@ namespace Problemario_1
 
         private void BtnEliminar_Click(object sender, RoutedEventArgs e)
         {
-            Problemario_1.Principal form = new Problemario_1.Principal();
+            Problemario_1.Eliminar form = new Problemario_1.Eliminar();
             form.ShowDialog();
         }
     }
